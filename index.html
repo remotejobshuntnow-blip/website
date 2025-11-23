@@ -3,40 +3,1034 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>PR Coverage Hub</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand"><img src="website/assets/logo.png" alt="" style="max-width: 150px;"></div>
+            <div class="nav-toggle" id="nav-toggle" aria-label="Open menu" role="button" tabindex="0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                    id="menu_icon">
+                    <path d="M4 6h16M4 12h16M4 18h16" stroke="#2D3748" stroke-width="2.25" stroke-linecap="round" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    id="close_icon" style="display: none;">
+                    <path
+                        d="M18.3002 5.70999C18.2077 5.61729 18.0978 5.54374 17.9768 5.49356C17.8559 5.44338 17.7262 5.41755 17.5952 5.41755C17.4643 5.41755 17.3346 5.44338 17.2136 5.49356C17.0926 5.54374 16.9827 5.61729 16.8902 5.70999L12.0002 10.59L7.11022 5.69999C7.01764 5.60741 6.90773 5.53397 6.78677 5.48387C6.6658 5.43376 6.53615 5.40797 6.40522 5.40797C6.27429 5.40797 6.14464 5.43376 6.02368 5.48387C5.90272 5.53397 5.79281 5.60741 5.70022 5.69999C5.60764 5.79258 5.5342 5.90249 5.4841 6.02345C5.43399 6.14442 5.4082 6.27406 5.4082 6.40499C5.4082 6.53593 5.43399 6.66557 5.4841 6.78654C5.5342 6.9075 5.60764 7.01741 5.70022 7.10999L10.5902 12L5.70022 16.89C5.60764 16.9826 5.5342 17.0925 5.4841 17.2135C5.43399 17.3344 5.4082 17.4641 5.4082 17.595C5.4082 17.7259 5.43399 17.8556 5.4841 17.9765C5.5342 18.0975 5.60764 18.2074 5.70022 18.3C5.79281 18.3926 5.90272 18.466 6.02368 18.5161C6.14464 18.5662 6.27429 18.592 6.40522 18.592C6.53615 18.592 6.6658 18.5662 6.78677 18.5161C6.90773 18.466 7.01764 18.3926 7.11022 18.3L12.0002 13.41L16.8902 18.3C16.9828 18.3926 17.0927 18.466 17.2137 18.5161C17.3346 18.5662 17.4643 18.592 17.5952 18.592C17.7262 18.592 17.8558 18.5662 17.9768 18.5161C18.0977 18.466 18.2076 18.3926 18.3002 18.3C18.3928 18.2074 18.4662 18.0975 18.5163 17.9765C18.5665 17.8556 18.5922 17.7259 18.5922 17.595C18.5922 17.4641 18.5665 17.3344 18.5163 17.2135C18.4662 17.0925 18.3928 16.9826 18.3002 16.89L13.4102 12L18.3002 7.10999C18.6802 6.72999 18.6802 6.08999 18.3002 5.70999Z"
+                        fill="black" />
+                </svg>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <a href="#how-it-works">How it works</a>
+                <a href="#features">Features</a>
+                <a href="#templates">Templates</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-buttons">
+                <!-- <button class="btn-secondary">Login</button> -->
+                <button class="btn-primary" onclick="window.location.href='/sign_up'">Start Free Trial</button>
+            </div>
+        </div>
+    </nav>
 
-    <main>
-        <section id="home">
-            <h2>Home Section</h2>
-            <p>This is the main content area of your website.</p>
-        </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">PR Software</div>
+            <h1 class="hero-title">
+                Deliver stunning PR Reports that <span class="text-accent">Clients Love</span>
+            </h1>
+            <p class="hero-description">
+                Automate metrics, showcase your success, and win back your time. Effortlessly create professional,
+                data-packed PR reports in minutes.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="window.location.href='/sign_up'">Start 14-Day Free Trial</button>
+                <button class="btn-outline">Get a demo</button>
+            </div>
+        </div>
+    </section>
 
-        <section id="about">
-            <h2>About Section</h2>
-            <p>Add information about your website here.</p>
-        </section>
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <p class="partners-text">Used by 500+ PR teams who value speed, relationships, and press-ready storytelling
+            </p>
+            <div class="partners-logos">
+                <div class="partner-logo">
+                    <img src="website/assets/partners/image 2.png" alt="">
+                </div>
+                <div class="partner-logo">
+                    <img src="website/assets/partners/image 3.png" alt="">
+                </div>
+                <div class="partner-logo">
+                    <img src="website/assets/partners/image 4.png" alt="">
+                </div>
+                <div class="partner-logo">
+                    <img src="website/assets/partners/image 5.png" alt="">
+                </div>
+                <div class="partner-logo">
+                    <img src="website/assets/partners/image 6.png" alt="">
+                </div>
+                <div class="partner-logo">
+                    <img src="website/assets/partners/image 7.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section id="contact">
-            <h2>Contact Section</h2>
-            <p>Contact information goes here.</p>
-        </section>
-    </main>
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="features-content">
+                <div class="features-text">
+                    <div class="section-badge">Features</div>
+                    <h2 class="features-title">Designed for PR Pros Who Deserve Results-Not Headaches</h2>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <span class="check-icon">✓</span>
+                            <span>No more spreadsheets or copy-pasting.</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="check-icon">✓</span>
+                            <span>Realistic, industry-leading metrics- no data-science degree required.</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="check-icon">✓</span>
+                            <span>Flexible, branded layouts for every client and campaign.</span>
+                        </div>
+                    </div>
+                    <button class="btn-primary" onclick="window.location.href='/sign_up'">Start 14-Day Free Trial</button>
+                </div>
+                <div class="features-image">
+                    <img src="website/assets/feature image.png" alt="">
+                    <div class="stats-card stats-green">
+                        <h3>Report Engagement</h3>
+                        <div class="stats-value">98.3%</div>
+                        <div class="stats-change">up 3% from last month ↗</div>
+                    </div>
+                    <div class="stats-card stats-dark">
+                        <h3>Client Satisfaction</h3>
+                        <div class="stats-value green">99%</div>
+                        <div class="stats-change">up 3% since last release ↗</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 My Website. All rights reserved.</p>
+    <!-- How It Works Section - Scrollytelling -->
+    <section class="how-it-works-scroll" id="how-it-works">
+        <div class="scroll-intro">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">How it works</div>
+                    <h2>From links to launch-PR reports in minutes, Not hours</h2>
+                    <p>Automate metrics, showcase your success, and win back your time. Effortlessly create professional,
+                        data-packed PR reports in minutes.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-steps">
+            <!-- Step 1 -->
+            <div class="scroll-step" data-step="1">
+                <div class="scroll-step-container">
+                    <div class="scroll-step-content">
+                        <div class="step-badge">Step 1</div>
+                        <h3>Create New Project</h3>
+                        <p>Set up your campaign or client project in seconds. Name it, add a description, and define your PR goals.</p>
+                        <div class="step-features">
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Quick project setup</span>
+                            </div>
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Define campaign goals</span>
+                            </div>
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Organize your work</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll-step-image">
+                        <div class="image-wrapper">
+                            <img src="website/assets/step_1.png" alt="Create New Project">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="scroll-step" data-step="2">
+                <div class="scroll-step-container">
+                    <div class="scroll-step-content">
+                        <div class="step-badge">Step 2</div>
+                        <h3>Customize Project Settings</h3>
+                        <p>As soon as you create your project, you're taken to the project section where you can upload your own logo, set brand colors, and personalize your report settings.</p>
+                        <div class="step-features">
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Upload your logo</span>
+                            </div>
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Set brand colors</span>
+                            </div>
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Personalize settings</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll-step-image">
+                        <div class="image-wrapper">
+                            <img src="website/assets/step_2.png" alt="Customize Project Settings">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="scroll-step" data-step="3">
+                <div class="scroll-step-container">
+                    <div class="scroll-step-content">
+                        <div class="step-badge">Step 3</div>
+                        <h3>Add Your Coverage Links</h3>
+                        <p>Paste URLs of your press coverage (up to 1000 links at once!). Our system captures screenshots, gathers Moz and SimilarWeb data automatically—processing takes just seconds based on the number of links.</p>
+                        <div class="step-features">
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Bulk URL import</span>
+                            </div>
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Auto screenshot capture</span>
+                            </div>
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Instant metrics collection</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll-step-image">
+                        <div class="image-wrapper">
+                            <img src="website/assets/step_3.png" alt="Add Your Coverage Links">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="scroll-step" data-step="4">
+                <div class="scroll-step-container">
+                    <div class="scroll-step-content">
+                        <div class="step-badge">Step 4</div>
+                        <h3>Choose Your Template</h3>
+                        <p>Select from 10 stunning and beautiful templates designed to match your brand identity. Each template is optimized for different media formats and audiences—find the perfect fit for your report.</p>
+                        <div class="step-features">
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>10 professional templates</span>
+                            </div>
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Brand-matched designs</span>
+                            </div>
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Instant preview</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll-step-image">
+                        <div class="image-wrapper">
+                            <img src="website/assets/step_4.png" alt="Choose Your Template">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="scroll-step" data-step="5">
+                <div class="scroll-step-container">
+                    <div class="scroll-step-content">
+                        <div class="step-badge">Step 5</div>
+                        <h3>Preview & Download Report</h3>
+                        <p>View your complete report with screenshots, Moz metrics, and SimilarWeb data—all displayed in an aesthetically pleasing layout. Download your professional PDF report and impress your clients!</p>
+                        <div class="step-features">
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Full report preview</span>
+                            </div>
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>PDF download ready</span>
+                            </div>
+                            <div class="step-feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Share online instantly</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll-step-image">
+                        <div class="image-wrapper">
+                            <img src="website/assets/step_5.png" alt="Preview & Download Report">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-outro">
+            <div class="container">
+                <div class="outro-content">
+                    <h3>Ready to transform your PR reporting?</h3>
+                    <p>Join 500+ PR professionals who save hours every week with automated reports.</p>
+                    <button class="btn-primary" onclick="window.location.href='/sign_up'">Start Your Free Trial</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Section -->
+    <section class="coverage">
+        <div class="container">
+            <div class="section-header">
+                <h2>All your metrics. All your coverage. One Seamless Platform.</h2>
+                <p>At PR Coverage Hub, We're proud to partner with PR professionals and agencies who trust us to
+                    simplify their reporting and amplify their results.</p>
+            </div>
+            <div class="coverage-features">
+                <div class="coverage-feature green">
+                    <div class="feature-icon"><img src="website/assets/coverage/icons/mdi_image.png" alt="image icon"></div>
+                    <h3>Instant Screenshots</h3>
+                    <p>Compile online, print, broadcast, and social media placements in a single professional report.
+                    </p>
+                </div>
+                <div class="coverage-feature red">
+                    <div class="feature-icon"><img src="website/assets/coverage/icons/bxs_data.svg" alt="data icon"></div>
+                    <h3>Automated Data Collection</h3>
+                    <p>Instantly gather accurate data on reach, impressions, domain authority, backlinks, & social
+                        shares for every piece.</p>
+                </div>
+                <div class="coverage-feature blue">
+                    <div class="feature-icon"><img src="website/assets/coverage/icons/material-symbols_print-rounded.svg"
+                            alt="print icon">
+                    </div>
+                    <h3>Multi-channel support</h3>
+                    <p>Compile online, print, broadcast, and social media placements in a single professional report.
+                    </p>
+                </div>
+                <div class="coverage-feature orange">
+                    <div class="feature-icon"><img
+                            src="website/assets/coverage/icons/material-symbols_dashboard-customize-rounded.svg"
+                            alt="customize icon"></div>
+                    <h3>Customizable Branding</h3>
+                    <p>Personalize every report with your logo, brand colors, and tailored layouts for a polished,
+                        on-brand look.</p>
+                </div>
+                <div class="coverage-mockup">
+                    <div class="mock-shape-subtract"></div>
+                    <div class="mock-shape-union"></div>
+                    <div class="mock-screenshot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Templates Section -->
+    <section class="templates" id="templates">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Templates</div>
+                <h2>Professional Report Templates for Every Brand Story</h2>
+            </div>
+
+            <div class="templates-carousel">
+                <button class="carousel-btn carousel-prev" aria-label="Previous templates">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <div class="carousel-track-container">
+                    <div class="carousel-track">
+                        <div class="template-slide">
+                            <div class="template-image">
+                                <img src="website/assets/templates/template_preview_1.png" alt="Modern Press Template">
+                                <div class="template-overlay">
+                                    <h3>Modern Press</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="template-slide">
+                            <div class="template-image">
+                                <img src="website/assets/templates/template_preview_2.png" alt="Sophisticated Burgundy Template">
+                                <div class="template-overlay">
+                                    <h3>Sophisticated Burgundy</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="template-slide featured">
+                            <div class="template-image">
+                                <img src="website/assets/templates/template_preview_3.png" alt="Executive Navy Template">
+                                <div class="template-overlay">
+                                    <h3>Executive Navy</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="template-slide">
+                            <div class="template-image">
+                                <img src="website/assets/templates/template_preview_4.png" alt="Urban Slate Template">
+                                <div class="template-overlay">
+                                    <h3>Urban Slate</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="template-slide">
+                            <div class="template-image">
+                                <img src="website/assets/templates/template_preview_5.png" alt="Modern Emerald Template">
+                                <div class="template-overlay">
+                                    <h3>Modern Emerald</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="template-slide">
+                            <div class="template-image">
+                                <img src="website/assets/templates/template_preview_6.png" alt="Creative Violet Template">
+                                <div class="template-overlay">
+                                    <h3>Creative Violet</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="template-slide">
+                            <div class="template-image">
+                                <img src="website/assets/templates/template_preview_7.png" alt="Golden Taupe Template">
+                                <div class="template-overlay">
+                                    <h3>Golden Taupe</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="template-slide">
+                            <div class="template-image">
+                                <img src="website/assets/templates/template_preview_8.png" alt="Blush Rose Template">
+                                <div class="template-overlay">
+                                    <h3>Blush Rose</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="template-slide">
+                            <div class="template-image">
+                                <img src="website/assets/templates/template_preview_9.png" alt="Midnight Onyx Template">
+                                <div class="template-overlay">
+                                    <h3>Midnight Onyx</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="template-slide">
+                            <div class="template-image">
+                                <img src="website/assets/templates/template_preview_10.png" alt="Sky Mist Template">
+                                <div class="template-overlay">
+                                    <h3>Sky Mist</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-btn carousel-next" aria-label="Next templates">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <div class="carousel-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Trusted Voices from Top PR Professionals</h2>
+                <p>At PR Coverage Hub, We're proud to partner with PR professionals and agencies who trust us to
+                    simplify their reporting and amplify their results.</p>
+            </div>
+            <div class="testimonials-marquee" aria-hidden="true">
+                <div class="testimonials-track track-left">
+                    <div class="testimonials-grid">
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_1.png" alt="Sarah Mitchell">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>This tool has been a game-changer for our agency. We used to spend 6-8 hours compiling monthly reports, now it takes less than 30 minutes. Our clients are blown away by the professional presentation.</p>
+                            <div class="testimonial-author">
+                                <strong>Sarah Mitchell</strong>
+                                <span>PR Director, Momentum Communications</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_2.png" alt="Marcus Chen">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>The automated metrics are incredibly accurate. Being able to show domain authority and reach instantly has completely transformed how we prove ROI to clients. Worth every penny.</p>
+                            <div class="testimonial-author">
+                                <strong>Marcus Chen</strong>
+                                <span>Founder, Chen PR Group</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_3.png" alt="Jessica Rodriguez">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>As a solo PR practitioner, I needed something affordable but professional. PR Coverage Hub delivers both. The templates make me look like I have a full design team behind me!</p>
+                            <div class="testimonial-author">
+                                <strong>Jessica Rodriguez</strong>
+                                <span>Independent PR Consultant</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_4.png" alt="David Thompson">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>The screenshot feature that bypasses paywalls is brilliant. We cover a lot of premium publications and being able to capture those articles seamlessly has saved us so much hassle.</p>
+                            <div class="testimonial-author">
+                                <strong>David Thompson</strong>
+                                <span>VP of Communications, TechStart Ventures</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_5.png" alt="Emily Watson">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>I've tried three different PR reporting tools and this is by far the best. The interface is intuitive, the data is reliable, and the customer support is responsive. Highly recommend!</p>
+                            <div class="testimonial-author">
+                                <strong>Emily Watson</strong>
+                                <span>Senior Account Manager, Bright Ideas PR</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_6.png" alt="James Park">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>Our team manages 15+ clients and this tool scales perfectly. The ability to customize branding for each client while maintaining efficiency is exactly what we needed.</p>
+                            <div class="testimonial-author">
+                                <strong>James Park</strong>
+                                <span>Managing Partner, Park & Associates</span>
+                            </div>
+                        </div>
+                        <!-- duplicate set for seamless loop -->
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_1.png" alt="Sarah Mitchell">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>This tool has been a game-changer for our agency. We used to spend 6-8 hours compiling monthly reports, now it takes less than 30 minutes. Our clients are blown away by the professional presentation.</p>
+                            <div class="testimonial-author">
+                                <strong>Sarah Mitchell</strong>
+                                <span>PR Director, Momentum Communications</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_2.png" alt="Marcus Chen">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>The automated metrics are incredibly accurate. Being able to show domain authority and reach instantly has completely transformed how we prove ROI to clients. Worth every penny.</p>
+                            <div class="testimonial-author">
+                                <strong>Marcus Chen</strong>
+                                <span>Founder, Chen PR Group</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_3.png" alt="Jessica Rodriguez">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>As a solo PR practitioner, I needed something affordable but professional. PR Coverage Hub delivers both. The templates make me look like I have a full design team behind me!</p>
+                            <div class="testimonial-author">
+                                <strong>Jessica Rodriguez</strong>
+                                <span>Independent PR Consultant</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_4.png" alt="David Thompson">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>The screenshot feature that bypasses paywalls is brilliant. We cover a lot of premium publications and being able to capture those articles seamlessly has saved us so much hassle.</p>
+                            <div class="testimonial-author">
+                                <strong>David Thompson</strong>
+                                <span>VP of Communications, TechStart Ventures</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_5.png" alt="Emily Watson">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>I've tried three different PR reporting tools and this is by far the best. The interface is intuitive, the data is reliable, and the customer support is responsive. Highly recommend!</p>
+                            <div class="testimonial-author">
+                                <strong>Emily Watson</strong>
+                                <span>Senior Account Manager, Bright Ideas PR</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_6.png" alt="James Park">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>Our team manages 15+ clients and this tool scales perfectly. The ability to customize branding for each client while maintaining efficiency is exactly what we needed.</p>
+                            <div class="testimonial-author">
+                                <strong>James Park</strong>
+                                <span>Managing Partner, Park & Associates</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-track track-right">
+                    <div class="testimonials-grid">
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_7.png" alt="Rachel Kim">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>The multi-channel tracking is fantastic. Finally, I can show broadcast, print, and digital coverage in one cohesive report. My executive team loves the clarity.</p>
+                            <div class="testimonial-author">
+                                <strong>Rachel Kim</strong>
+                                <span>Head of PR, Global Health Initiative</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_8.png" alt="Michael O'Brien">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>Switched from a competitor and couldn't be happier. PR Coverage Hub is more intuitive, costs half as much, and the reports look twice as professional. Easy decision.</p>
+                            <div class="testimonial-author">
+                                <strong>Michael O'Brien</strong>
+                                <span>Communications Manager, Retail Innovation Co.</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_9.png" alt="Aisha Patel">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>The data export feature is clutch. I can pull everything into our internal dashboards while still using the beautiful templates for client-facing reports. Best of both worlds.</p>
+                            <div class="testimonial-author">
+                                <strong>Aisha Patel</strong>
+                                <span>Analytics Lead, Digital Pulse Agency</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_10.png" alt="Tom Anderson">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>It's so easy to use. It has really made my life easier. This is making me look good in front of our leadership team. Definitely a godsend for any PR agency.</p>
+                            <div class="testimonial-author">
+                                <strong>Tom Anderson</strong>
+                                <span>PR Specialist, Anderson Media Group</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_11.png" alt="Lisa Chang">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>The template variety is impressive. Whether I'm reporting to C-suite or marketing teams, there's always a perfect fit. The customization options are endless.</p>
+                            <div class="testimonial-author">
+                                <strong>Lisa Chang</strong>
+                                <span>Senior PR Strategist, Horizon Communications</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_12.png" alt="Carlos Rivera">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>I was skeptical about the pricing initially, but after seeing the time savings and client reactions, it's easily paid for itself ten times over. Incredible value.</p>
+                            <div class="testimonial-author">
+                                <strong>Carlos Rivera</strong>
+                                <span>Owner, Rivera Public Relations</span>
+                            </div>
+                        </div>
+                        <!-- duplicate set for seamless loop -->
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_7.png" alt="Rachel Kim">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>The multi-channel tracking is fantastic. Finally, I can show broadcast, print, and digital coverage in one cohesive report. My executive team loves the clarity.</p>
+                            <div class="testimonial-author">
+                                <strong>Rachel Kim</strong>
+                                <span>Head of PR, Global Health Initiative</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_8.png" alt="Michael O'Brien">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>Switched from a competitor and couldn't be happier. PR Coverage Hub is more intuitive, costs half as much, and the reports look twice as professional. Easy decision.</p>
+                            <div class="testimonial-author">
+                                <strong>Michael O'Brien</strong>
+                                <span>Communications Manager, Retail Innovation Co.</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_9.png" alt="Aisha Patel">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>The data export feature is clutch. I can pull everything into our internal dashboards while still using the beautiful templates for client-facing reports. Best of both worlds.</p>
+                            <div class="testimonial-author">
+                                <strong>Aisha Patel</strong>
+                                <span>Analytics Lead, Digital Pulse Agency</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_10.png" alt="Tom Anderson">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>It's so easy to use. It has really made my life easier. This is making me look good in front of our leadership team. Definitely a godsend for any PR agency.</p>
+                            <div class="testimonial-author">
+                                <strong>Tom Anderson</strong>
+                                <span>PR Specialist, Anderson Media Group</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_11.png" alt="Lisa Chang">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>The template variety is impressive. Whether I'm reporting to C-suite or marketing teams, there's always a perfect fit. The customization options are endless.</p>
+                            <div class="testimonial-author">
+                                <strong>Lisa Chang</strong>
+                                <span>Senior PR Strategist, Horizon Communications</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="website/assets/reviews/human_12.png" alt="Carlos Rivera">
+                                </div>
+                                <div class="quote-icon">"</div>
+                            </div>
+                            <p>I was skeptical about the pricing initially, but after seeing the time savings and client reactions, it's easily paid for itself ten times over. Incredible value.</p>
+                            <div class="testimonial-author">
+                                <strong>Carlos Rivera</strong>
+                                <span>Owner, Rivera Public Relations</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Flexible Plans Tailored to your PR needs</h2>
+                <p>At PR Coverage Hub, We're proud to partner with PR professionals and agencies who trust us to
+                    simplify their reporting and amplify their results.</p>
+            </div>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Bronze</h3>
+                    <div class="price"><span class="currency">$</span><span class="amount">25</span></div>
+                    <p class="billing">Per month, billed annually</p>
+                    <ul class="features">
+                        <li><span class="check">✓</span> Add up to<strong>50 coverage</strong>clips a month</li>
+                        <li><span class="check">✓</span> Remove free trial label</li>
+                        <li><span class="check">✓</span> Take screenshots without ads & popups</li>
+                        <li><span class="check">✓</span> Take screenshots from behind a paywall</li>
+                        <li><span class="check">✓</span> Export coverage data with all metrics</li>
+                        <li><span class="check">✓</span> Best for solo PR pro</li>
+                    </ul>
+                    <button class="btn-outline">Get Free Early Access</button>
+                    <p class="no-card">No Card Required</p>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Silver</h3>
+                    <div class="price"><span class="currency">$</span><span class="amount">48</span></div>
+                    <p class="billing">Per month, billed annually</p>
+                    <ul class="features">
+                        <li><span class="check">✓</span> Add up to <strong>150 coverage</strong> clips a month</li>
+                        <li><span class="check">✓</span> Remove free trial label</li>
+                        <li><span class="check">✓</span> Take screenshots without ads & popups</li>
+                        <li><span class="check">✓</span> Take screenshots from behind a paywall</li>
+                        <li><span class="check">✓</span> Export coverage data with all metrics</li>
+                        <li><span class="check">✓</span> Best for small PR teams</li>
+                    </ul>
+                    <button class="btn-primary">Get Free Early Access</button>
+                    <p class="no-card">No Card Required</p>
+                </div>
+                <div class="pricing-card">
+                    <h3>Gold</h3>
+                    <div class="price"><span class="currency">$</span><span class="amount">99</span></div>
+                    <p class="billing">Per month, billed annually</p>
+                    <ul class="features">
+                        <li><span class="check">✓</span> Add up to<strong>300 coverage</strong>clips a month</li>
+                        <li><span class="check">✓</span> Remove free trial label</li>
+                        <li><span class="check">✓</span> Take screenshots without ads & popups</li>
+                        <li><span class="check">✓</span> Take screenshots from behind a paywall</li>
+                        <li><span class="check">✓</span> Export coverage data with all metrics</li>
+                        <li><span class="check">✓</span> Best for large PR agencies</li>
+                    </ul>
+                    <button class="btn-outline">Get Free Early Access</button>
+                    <p class="no-card">No Card Required</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container" id="contact_us_index">
+            <div class="section-header">
+                <h2>Get in <span class="text-dark">touch</span></h2>
+                <p>Reach out—let's craft stories that shine across the media universe.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h3>Connecting the stars of your story</h3>
+                    <p>Together, we'll align the stars and make your brand shine brighter than ever.</p>
+                    <form id="contact_us">
+                        <div class="form-field">
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                            <span class="field-error-message" id="name-error"></span>
+                        </div>
+                        <div class="form-field">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            <span class="field-error-message" id="email-error"></span>
+                        </div>
+                        <div class="form-field">
+                            <input type="tel" id="mobile" name="mobile" placeholder="Phone Number" required>
+                            <span class="field-error-message" id="mobile-error"></span>
+                        </div>
+                        <div class="form-field">
+                            <textarea id="message" name="message" placeholder="Message" rows="4" required></textarea>
+                            <span class="field-error-message" id="message-error"></span>
+                        </div>
+                        <button type="submit" class="btn-primary" id="submit-btn">Send Message</button>
+                        <div id="form-messages"></div>
+                    </form>
+                </div>
+                <div class="contact-image">
+                    <div class="contact-quote">
+                        <p>"Two months of impactful coverage revealed the true power of strategic PR, transforming how
+                            brands connect with the world."</p>
+                        <div class="quote-author">Irinel Traista</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2>Common Questions</h2>
+            <div class="faq-items">
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>Why should I try PR Coverage Hub?</span>
+                        <span class="faq-toggle" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 51 51"
+                                fill="none">
+                                <path d="M15.0834 21.1497L25.5001 31.5664L35.9167 21.1497" stroke="#2D3748"
+                                    stroke-width="4.16667" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer">PR Coverage Hub saves you hours every week by automating your PR reporting workflow. We're 2x more affordable than competitors like CoverageBook, starting at just $25/month. With automated metrics, instant screenshots, and customizable branding, you'll deliver stunning reports that make you look like a PR rockstar. Start your 14-day free trial today, no credit card required!</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>What metrics do you collect automatically?</span>
+                        <span class="faq-toggle" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 51 51"
+                                fill="none">
+                                <path d="M15.0834 21.1497L25.5001 31.5664L35.9167 21.1497" stroke="#2D3748"
+                                    stroke-width="4.16667" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer">We automatically collect comprehensive metrics for every coverage piece you add: reach and impressions to show your audience size, domain authority to demonstrate outlet credibility, backlink data to track SEO value, and social shares to measure engagement. All metrics are gathered instantly when you add a URL—no manual data entry, no spreadsheets, no headaches. Just paste your coverage links and watch the data populate automatically.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>Do you just collect metrics, or do you do more?</span>
+                        <span class="faq-toggle" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 51 51"
+                                fill="none">
+                                <path d="M15.0834 21.1497L25.5001 31.5664L35.9167 21.1497" stroke="#2D3748"
+                                    stroke-width="4.16667" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer">We do so much more! From a single URL, we capture full-page screenshots (without ads and popups—even from behind paywalls), extract article titles, pull publication dates, and compile all your metrics automatically. Then we assemble everything into a beautiful, client-ready report. You can customize it with your branding, add your logo and brand colors, and deliver it as a polished PDF or share it online. Or simply export all the data to use however you wish. It's a complete end-to-end solution for PR reporting.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>How can I trust the data you provide?</span>
+                        <span class="faq-toggle" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 51 51"
+                                fill="none">
+                                <path d="M15.0834 21.1497L25.5001 31.5664L35.9167 21.1497" stroke="#2D3748"
+                                    stroke-width="4.16667" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer">We partner with industry-leading third-party data providers to ensure accuracy and reliability. Our metrics come from trusted sources like SimilarWeb for outlet audience data and Moz for Domain Authority scores—the same sources used by top PR agencies and marketing teams worldwide. We don't make up numbers; we pull real, verified data from established industry authorities so you can report with confidence.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>How many templates are available, and can I customize them?</span>
+                        <span class="faq-toggle" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 51 51"
+                                fill="none">
+                                <path d="M15.0834 21.1497L25.5001 31.5664L35.9167 21.1497" stroke="#2D3748"
+                                    stroke-width="4.16667" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer">We offer an array of professionally designed templates to choose from, each crafted to match different brand personalities and needs. Every template is fully customizable—add your logo, apply your brand colors, and tailor the layout to match your client's style. Switch between templates instantly to find the perfect fit for each campaign or client.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>What's included in the 14-day free trial?</span>
+                        <span class="faq-toggle" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 51 51"
+                                fill="none">
+                                <path d="M15.0834 21.1497L25.5001 31.5664L35.9167 21.1497" stroke="#2D3748"
+                                    stroke-width="4.16667" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer">Your 14-day free trial gives you full access to all features—no credit card required! Add coverage clips, test all templates, capture screenshots without ads and popups, collect automated metrics, customize with your branding, and create as many reports as you need. It's a risk-free way to see how much time PR Coverage Hub can save you. After your trial, choose the plan that fits your needs: Bronze for solo PR pros, Silver for small teams, or Gold for large agencies.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>Can I track coverage across different media channels?</span>
+                        <span class="faq-toggle" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 51 51"
+                                fill="none">
+                                <path d="M15.0834 21.1497L25.5001 31.5664L35.9167 21.1497" stroke="#2D3748"
+                                    stroke-width="4.16667" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer">Absolutely! PR Coverage Hub supports multi-channel tracking so you can compile online articles, print publications, broadcast segments, and social media placements all in a single professional report. No more juggling separate spreadsheets for different media types—everything lives in one place, beautifully organized and ready to showcase to your clients or leadership team.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><img src="website/assets/logo.png" alt="" style="max-width: 150px;"></h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <img src="website/assets/ic_sharp-facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="website/assets/ri_instagram-fill.svg" alt="Instagram">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="website/assets/mdi_gmail.svg" alt="Email">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Support</h4>
+                        <a href="#contact">Contact</a>
+                        <a href="#faq">Questions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+
 </body>
 </html>
